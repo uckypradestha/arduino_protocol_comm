@@ -6,13 +6,13 @@
 
 <p>Pada Arduino ada beberapa jenis protokol komunikasi yaitu Serial (UART), I2C, and SPI</p>
 
-<h3>Komunikasi Serial (UART)</h3>
+<h3><a href="1. Komunikasi Serial (UART)">Komunikasi Serial (UART)</a></h3>
 <p>Komunikasi serial melibatkan pengiriman data bit demi bit melalui pin yang ditentukan pada Arduino.</p>
 
-<h3>Inter-Integrated Circuit (I2C)</h3>
+<h3><a href="2. Protokol Inter-Integrated Circuit (I2C)">Inter-Integrated Circuit (I2C)</a></h3>
 <p>I2C merupakan protokol komunikasi yang memungkinkan beberapa perangkat terhubung dalam satu jaringan menggunakan dua jalur komunikasi yaitu Serial Clock (SCL) dan Serial Data (SDA).</p>
 
-<h3>Serial Peripheral Interface (SPI)</h3>
+<h3><a href="3. Serial Peripheral Interface (SPI)">Serial Peripheral Interface (SPI)</a></h3>
 <p>Serial Peripheral Interface (SPI) merupakan protokol komunikasi yang digunakan untuk menghubungkan perangkat digital dengan kecepatan tinggi </p>
 
 # Percobaan Pendahuluan
