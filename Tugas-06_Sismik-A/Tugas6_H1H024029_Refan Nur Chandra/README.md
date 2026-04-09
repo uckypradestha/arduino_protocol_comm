@@ -20,3 +20,7 @@ quote.substring(i, i + 16): Mengambil cuplikan string sepanjang 16 karakter untu
 while loop: Mengisi sisa kolom LCD dengan spasi kosong agar tampilan tetap bersih (tidak ada karakter tertinggal).
 
 delay(100): Mengatur kecepatan scroll teks (100 ms per karakter).
+
+
+## Dokumentasi Video
+<video src="./Dokumentasi/Tugas6-Dokumentasi.mp4" width="100%" controls></video>
