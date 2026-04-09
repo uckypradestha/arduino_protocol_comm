@@ -23,4 +23,4 @@ delay(100): Mengatur kecepatan scroll teks (100 ms per karakter).
 
 
 ## Dokumentasi Video
-<video src="./Dokumentasi/Tugas6-Dokumentasi.mp4" width="100%" controls></video>
+<video src="Dokumentasi/Tugas6-Dokumentasi.mp4" width="100%" controls></video>
