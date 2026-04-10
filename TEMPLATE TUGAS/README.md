@@ -19,3 +19,7 @@ Repositori ini dibagi menjadi tiga direktori utama, yang sebagian besar memiliki
 Di dalam setiap direktori terdapat file ```README.md``` yang merangkum tujuan dari direktori tersebut serta beberapa contoh jika diperlukan. Struktur ini mungkin tidak sepenuhnya sesuai dengan kebutuhan penggunaan Anda dan bisa saja perlu dimodifikasi.
 
 Khusus untuk direktori Sourc Code, file ```README.md``` digunakan untuk menjelaskan Code yang telah Anda buat.
+
+## Penjelasan Code
+
+Ganti isi file README.md ini dengan penjelasan tentang kode yang telah dibuat mulai dari penggunaan Librari, Inisialisasi dan Looping.
