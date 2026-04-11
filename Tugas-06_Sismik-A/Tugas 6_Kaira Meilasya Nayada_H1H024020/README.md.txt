@@ -2,6 +2,9 @@ Nama	: Kaira Meilasya Nayada
 NIM	: H1H024020
 Kelas	: A
 
+link tinkercad
+: https://www.tinkercad.com/things/cWzjtgYZP8a-spectacular-hango
+
 Penjelasan Program
 - Library yag digunakan
 #include <Adafruit_LiquidCrystal.h>
