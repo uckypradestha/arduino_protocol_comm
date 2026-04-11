@@ -40,7 +40,10 @@ Project ini menampilkan teks scrolling pada LCD 16x2 menggunakan protokol komuni
 
 ## Video Demonstrasi
 
-[Tonton video demonstrasi](./video.mp4)
+<video width="640" height="480" controls>
+  <source src="./video.mp4" type="video/mp4">
+  Browser Anda tidak mendukung video tag.
+</video>
 
 ## Link TinkerCAD
 
