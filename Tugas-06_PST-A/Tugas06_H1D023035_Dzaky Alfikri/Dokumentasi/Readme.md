@@ -4,6 +4,7 @@
 Folder ini berisi dokumentasi lengkap untuk proyek "Scrolling Text Dengan I2C" yang menggunakan Arduino UNO dan LCD 16x2.
 
 ## Isi Dokumentasi
+https://www.tinkercad.com/things/aQM1y0dxbeY-h1d023035scrolling-text-i2c?sharecode=B5Zkx4NvGcvhR0Yrknqa0Bj4JCqvZ7AuBj2OSzNKkg0
 
 ### Skema Rangkaian
 Dokumentasi ini mencakup skema wiring (diagram rangkaian) yang menunjukkan:
