@@ -19,7 +19,7 @@ Proyek ini bertujuan untuk membuat sistem penampilan teks scrolling (teks berjal
 
 ---
 
-## 🔧 Perangkat Keras (Hardware)
+## Perangkat Keras (Hardware)
 
 ### Komponen yang Digunakan
 | Komponen | Spesifikasi | Jumlah |
@@ -32,7 +32,7 @@ Proyek ini bertujuan untuk membuat sistem penampilan teks scrolling (teks berjal
 
 ### Skema Rangkaian
 
-![Skema Rangkaian I2C LCD](./Tugas06_H1D023035_Dzaky%20Alfikri/Dokumentasi/FotoTinkercad.png)
+![Foto Tinkercad](Dokumentasi/FotoTinkercad.png)
 
 ### Koneksi Pin
 ```
@@ -49,7 +49,7 @@ I2C Address: 0x27 (Default)
 
 ---
 
-## 💻 Perangkat Lunak (Software)
+## Perangkat Lunak (Software)
 
 ### Library yang Digunakan
 
