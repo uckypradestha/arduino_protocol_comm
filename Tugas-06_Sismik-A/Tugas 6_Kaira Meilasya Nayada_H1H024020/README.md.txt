@@ -5,6 +5,9 @@ Kelas	: A
 link tinkercad
 : https://www.tinkercad.com/things/cWzjtgYZP8a-spectacular-hango
 
+link dokumentasi
+: https://drive.google.com/file/d/1T9hG0xuHjmp1o4ThUp15VPZV7X4Al8Ys/view?usp=sharing
+
 Penjelasan Program
 - Library yag digunakan
 #include <Adafruit_LiquidCrystal.h>
