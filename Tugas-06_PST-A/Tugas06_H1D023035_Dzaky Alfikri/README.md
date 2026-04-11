@@ -33,7 +33,9 @@ Proyek ini bertujuan untuk membuat sistem penampilan teks scrolling (teks berjal
 ### Skema Rangkaian
 
 ![Foto Tinkercad](Dokumentasi/FotoTinkercad.png)
-
+```
+https://www.tinkercad.com/things/aQM1y0dxbeY-h1d023035scrolling-text-i2c?sharecode=B5Zkx4NvGcvhR0Yrknqa0Bj4JCqvZ7AuBj2OSzNKkg0
+```
 ### Koneksi Pin
 ```
 Arduino UNO ──(I2C)── Modul I2C ──(Parallel)── LCD 16x2
