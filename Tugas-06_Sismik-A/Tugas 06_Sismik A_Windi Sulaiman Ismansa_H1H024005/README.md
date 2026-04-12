@@ -97,6 +97,8 @@ void loop(){
 
 ## DEMO
 
+https://github.com/user-attachments/assets/9d690195-86a5-4018-8ea2-1346d7c028c3
+
 ## LINK SIMULASI (TINKERCAD)
 
 [https://www.tinkercad.com/things/gs8z9fQYmeS-tugas6](https://www.tinkercad.com/things/gs8z9fQYmeS-tugas6)
