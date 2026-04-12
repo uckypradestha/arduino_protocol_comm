@@ -1,4 +1,3 @@
-````md
 # Program Scrolling Text LCD I2C
 
 Program ini menggunakan Arduino Uno dan LCD 16x2 I2C untuk menampilkan:
