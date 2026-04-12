@@ -11,6 +11,9 @@ Diagram ini menunjukkan koneksi antara **Arduino UNO** dan **LCD 16x2 dengan I2C
 ## Video Simulasi
 Video berikut merupakan simulasi hasil rangkaian scrolling text
 
+https://github.com/user-attachments/assets/c9a72634-19de-4b73-8f65-4ec8baf5c0a3
+
+
 ### Hasil
 
 **Baris 1 LCD:** Menampilkan "QUOTE" static di tengah  
