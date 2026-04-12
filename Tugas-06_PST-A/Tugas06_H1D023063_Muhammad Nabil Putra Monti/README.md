@@ -73,3 +73,4 @@ Kode ini dirancang agar lebih ringkas dan mudah dipahami dengan pembagian sebaga
       - Dengan teknik ini, kita tidak perlu menghapus baris 1 secara manual, karena spasi dalam jendela *substring* akan otomatis menimpa karakter sebelumnya.
 
 ## Video
+https://github.com/user/repo/raw/main/dokumentasi/Recording%202026-04-12%20222032.mp4
