@@ -80,3 +80,5 @@ Untuk membuat teks bergerak dari kanan ke kiri, digunakan teknik Substring: <ol>
   <li>Substring(i, i+16): Fungsi ini mengambil "jendela" teks sepanjang 16 karakter yang bergeser seiring bertambahnya nilai perulangan i.</li>
 </ol>
  </ol>
+
+ ![Demo Simulasi](Dokumentasi/CuplikanSirkuit.gif)
