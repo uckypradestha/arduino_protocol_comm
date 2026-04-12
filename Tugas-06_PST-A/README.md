@@ -1,13 +1,33 @@
-<h1>Scrolling Text Dengan I2C</h1>
+# Scrolling Text Dengan I2C
 
-Spesifikasi Sistem:
+## Spesifikasi Sistem:
 - Terdiri dari 2 Kalimat.
 - Kalimat 1 (baris [0]) bertulisan QUOTE, sifatnya statis
 - Kalimat 2 (baris [1]) bertulisan Quote nya yang sifatnya dinamis
 - Tulisan QUOTE tepat di tengah tampilan LCD
 - Tulisan Quote nya pada baris [1] langsung muncul dari sisi kanan (Cursor 15, 1)
 
-<h2></h2>
+## Implementasi sistem
+
+### Alat dan bahan
+
+- arduino uno
+- LCD I2C 
+  - Dengan tipe PCF8574-Based
+  - Address 0x27 
+  - dengan dimensi 16 x 2
+- kabel jumper
+
+### Rangkaian
+![Schematic](Dokumentasi/Schematic.png)
+
+### Hasil 
+![Schema](Dokumentasi/liquidcrystal_i2c.png)
+
+gif :
+
+![Video](Dokumentasi/output.gif)
+
 
 <br>
 <div align="center">
