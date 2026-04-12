@@ -1,0 +1,59 @@
+## Author
+- Nama  : Alma Maida Wirastuti
+- NIM   : H1H024021
+- Kelas : A
+
+# Scrolling Text Dengan I2C
+
+## Deskripsi
+Program ini menampilkan dua kalimat pada LCD 16x2 yang terhubung 
+melalui protokol komunikasi I2C. Kalimat pertama bersifat statis 
+dan ditampilkan tepat di tengah baris atas, sedangkan kalimat kedua 
+bersifat dinamis (scrolling) yang muncul dari sisi kanan layar.
+
+## Library yang Digunakan
+- `Adafruit_LiquidCrystal.h` untuk kontrol LCD 16x2 via modul I2C
+
+
+### Inisialisasi (`setup`)
+- LCD diinisialisasi dengan 16 kolom dan 2 baris
+- Backlight dinyalakan dengan `lcd.setBacklight(HIGH)`
+- Kalimat statis dicetak tepat di tengah baris [0] dengan perhitungan:
+```cpp
+int startCol = (16 - staticQuote.length()) / 2;
+lcd.setCursor(startCol, 0);
+lcd.print(staticQuote);
+```
+- Posisi scroll baris [1] dimulai dari kolom 16 (luar layar sisi kanan):
+```cpp
+scrollPos = 16;
+```
+
+### Looping (`loop`)
+- Baris [1] dibersihkan setiap siklus dengan 16 spasi
+- Teks scroll dicetak **per karakter** menggunakan loop agar tidak terpotong:
+```cpp
+for (int i = 0; i < 16; i++) {
+  int charIndex = i - scrollPos;
+  if (charIndex >= 0 && charIndex < (int)scrollQuote.length()) {
+    lcd.setCursor(i, 1);
+    lcd.print(scrollQuote[charIndex]);
+  }
+}
+```
+- Setiap siklus `scrollPos` berkurang 1 sehingga teks bergerak ke kiri
+- Ketika teks habis keluar layar kiri, posisi direset ke 16 (sisi kanan)
+
+## Hasil Program
+| Baris LCD | Isi | Sifat |
+|---|---|---|
+| Baris [0] | "Sleep is import" | Statis, di tengah |
+| Baris [1] | "but assignments said ‘not today’" | Dinamis, scroll dari kanan |
+
+## Konfigurasi Hardware
+| Pin LCD I2C | Pin Arduino |
+|---|---|
+| GND | GND |
+| VCC | 5V |
+| SDA | A4 |
+| SCL | A5 |
