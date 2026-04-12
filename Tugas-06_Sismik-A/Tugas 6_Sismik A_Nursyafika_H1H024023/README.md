@@ -18,7 +18,11 @@ Pada fungsi loop(), program menghitung panjang teks menggunakan strlen(). Setela
 Setelah seluruh teks selesai bergeser, program memberikan jeda singkat selama 800 milidetik sebelum mengulangi animasi dari awal. Dengan demikian, teks akan terus bergerak secara berulang pada LCD.
 
 ##rec 
-https://github.com/user-attachments/assets/df8e2d2f-b782-4f59-85ec-93dec755682c
+
+
+https://github.com/user-attachments/assets/ddf74989-4cbb-4f20-8e01-6c577a7db82b
+
+
 <img width="1883" height="735" alt="Screenshot 2026-04-12 195119" src="https://github.com/user-attachments/assets/2aa33c6a-a4af-4ac9-8937-00f1325fe040" />
 
 
