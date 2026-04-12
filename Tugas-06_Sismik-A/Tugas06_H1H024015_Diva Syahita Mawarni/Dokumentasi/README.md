@@ -23,8 +23,8 @@ Program ini bertujuan untuk menampilkan komunikasi serial berupa teks **"Hello W
 
 ### Hasil Simulasi
 
-* LED menyala dan mati secara bergantian (blink)
-* Serial Monitor menampilkan:
+LED menyala dan mati secara bergantian (blink)
+Serial Monitor menampilkan:
 
   ```
   Hello World
@@ -32,8 +32,8 @@ Program ini bertujuan untuk menampilkan komunikasi serial berupa teks **"Hello W
 
 ### Dokumentasi
 
-* ![Komunikasi serial](komunikasi_serial.png)
-* [video simulasi](komunikasi_data.mp4)
+![Komunikasi serial](komunikasi_serial.png)
+[video simulasi](komunikasi_data.mp4)
 
 ### Link Simulasi
 
@@ -60,15 +60,15 @@ Program ini digunakan untuk menampilkan teks statis pada LCD 16x2 berbasis I2C.
 
 ### Hasil Simulasi
 
-* LCD menampilkan:
+LCD menampilkan:
 
   * Baris 1: **Hello World!**
   * Baris 2: **DIVA SYAHITA**
 
 ### Dokumentasi
 
-* ![Print l2c](printl2c.png)
-* [video simulasi](print.mp4)
+![Print l2c](printl2c.png)
+[video simulasi](print.mp4)
 
 ### Link Simulasi
 
@@ -91,8 +91,8 @@ Program ini digunakan untuk mendeteksi alamat perangkat yang terhubung melalui p
 
 ### Hasil Simulasi
 
-* Serial Monitor menampilkan hasil scanning alamat I2C
-* Contoh output:
+Serial Monitor menampilkan hasil scanning alamat I2C
+Contoh output:
 
   ```
   Scanning...
@@ -102,8 +102,8 @@ Program ini digunakan untuk mendeteksi alamat perangkat yang terhubung melalui p
 
 ### Dokumentasi
 
-* ![Scanning](scanning.png)
-* [video simulasi](scanning.mp4)
+![Scanning](scanning.png)
+[video simulasi](scanning.mp4)
 
 ### Link Simulasi
 
@@ -126,8 +126,8 @@ Program ini menampilkan teks berjalan (scrolling text) pada LCD I2C.
 
 ### Hasil Simulasi
 
-* Baris pertama menampilkan: **QUOTE**
-* Baris kedua menampilkan teks berjalan:
+Baris pertama menampilkan: **QUOTE**
+Baris kedua menampilkan teks berjalan:
 
   ```
   Belajar hari ini untuk masa depan yang lebih baik
@@ -135,8 +135,8 @@ Program ini menampilkan teks berjalan (scrolling text) pada LCD I2C.
 
 ### Dokumentasi
 
-* ![scrolling](scrolling_text.png)
-* [video simulasi](scanning.mp4)
+![scrolling](scrolling_text.png)
+[video simulasi](scanning.mp4)
 
 ### Link Simulasi
 

@@ -16,7 +16,7 @@ Tidak menggunakan library tambahan, hanya fungsi bawaan Arduino.
 const int ledPin = 8;
 ```
 
-* Mendefinisikan pin 8 sebagai output untuk LED.
+Mendefinisikan pin 8 sebagai output untuk LED.
 
 ```cpp
 Serial.begin(9600);
@@ -49,7 +49,7 @@ delay(1000);
 #include <Adafruit_LiquidCrystal.h>
 ```
 
-* Library untuk mengontrol LCD berbasis I2C.
+Library untuk mengontrol LCD berbasis I2C.
 
 ### Inisialisasi
 
@@ -57,7 +57,7 @@ delay(1000);
 Adafruit_LiquidCrystal lcd(0);
 ```
 
-* Membuat objek LCD dengan alamat I2C default.
+Membuat objek LCD dengan alamat I2C default.
 
 ```cpp
 lcd.begin(16, 2);
@@ -71,7 +71,7 @@ lcd.setBacklight(HIGH);
 
 ### Looping
 
-* Tidak ada proses looping (kosong), karena teks hanya ditampilkan sekali saat setup.
+Tidak ada proses looping (kosong), karena teks hanya ditampilkan sekali saat setup.
 
 ### Output
 
@@ -88,7 +88,7 @@ lcd.setBacklight(HIGH);
 #include <Wire.h>
 ```
 
-* Digunakan untuk komunikasi I2C.
+Digunakan untuk komunikasi I2C.
 
 ### Inisialisasi
 
@@ -97,7 +97,7 @@ Wire.begin();
 Serial.begin(9600);
 ```
 
-* Memulai komunikasi I2C dan Serial.
+Memulai komunikasi I2C dan Serial.
 
 ### Looping
 
@@ -136,14 +136,14 @@ Adafruit_LiquidCrystal lcd(0);
 const char* quote = "Belajar hari ini untuk masa depan yang lebih baik ";
 ```
 
-* Menyimpan teks yang akan di-scroll.
+Menyimpan teks yang akan di-scroll.
 
 ```cpp
 lcd.begin(16, 2);
 lcd.setBacklight(1);
 ```
 
-* Mengatur LCD dan menyalakan backlight.
+Mengatur LCD dan menyalakan backlight.
 
 ### Looping
 
