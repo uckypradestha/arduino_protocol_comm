@@ -35,3 +35,4 @@ Logika animasi teks diimplementasikan menggunakan pemanggilan fungsi `scrollDisp
 4. **Troubleshooting Fisik:** Jika *backlight* menyala namun piksel teks tidak terlihat (kosong), putar potensiometer (trimpot biru) di bagian belakang modul I2C menggunakan obeng presisi untuk melakukan kalibrasi tingkat kontras layar.
 
 **Naufal Satrio Putra** *H1D024079 | Informatika, Fakultas Teknik* Universitas Jenderal Soedirman  
+

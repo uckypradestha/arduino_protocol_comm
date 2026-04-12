@@ -5,7 +5,7 @@ Adafruit_LiquidCrystal lcd(0);
 void setup() {
   lcd.begin(16, 4);
   
-  // Menyalakan lampu latar
+  // Menyalakan lampu latar belakang
   lcd.setBacklight(1);
   lcd.print("Selamat menikmati MBG");
   delay(1000);
