@@ -115,6 +115,9 @@ void loop() {
 
 ##  Dokumentasi Demo
 
+https://github.com/user-attachments/assets/2ff0d3ce-eca0-419f-9384-080028c774b2
+
+
 
 **Link Tinkercad:** [https://www.tinkercad.com/things/2OkB3EusXWo-i2c](https://www.tinkercad.com/things/2OkB3EusXWo-i2c)
 
