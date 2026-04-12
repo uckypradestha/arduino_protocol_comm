@@ -1,2 +1,4 @@
 ## Dokumentasi Video
-![Video Dokumentasi](Dokumentasi/video_dokum.mp4)
+<video src="video_dokum.mp4" width="600" controls>
+  Browser Anda tidak mendukung pemutaran video.
+</video>
