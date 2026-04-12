@@ -1,4 +1,4 @@
-# Penjelasan Kode 'main.cpp'
+# Penjelasan Kode `main.cpp`
 
 Program ini digunakan untuk mengendalikan LCD 16x2 melalui komunikasi I2C dengan bantuan library Adafruit LiquidCrystal. Tampilan LCD terdiri dari teks tetap pada baris pertama dan teks bergerak pada baris kedua.
 
