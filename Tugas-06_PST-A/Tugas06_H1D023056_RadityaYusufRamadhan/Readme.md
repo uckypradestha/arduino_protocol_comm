@@ -1,13 +1,10 @@
-# Laporan Tugas Praktikum Sistem Tertanam - Modul 6
+# Laporan Tugas Sistem Tertanam - Modul 6
 
 ## Implementasi Scrolling Text pada I2C Liquid Crystal Display (LCD)
-
-### Data Mahasiswa
 
 - **Nama:** Raditya Yusuf Ramadhan
 - **NIM:** H1D023056
 - **Program Studi:** Informatika
-- **Semester:** 6
 
 ---
 
