@@ -19,7 +19,7 @@ void loop()
   String message = blank + quote; // merge with space with the quote
   
   // looping over the entire letters of the text
-  for (int i = 1; i < message.length(); i++) { 
+  for (int i = 0; i < message.length(); i++) { 
     lcd.setCursor(0, 1);
     
     // Print substring for scrolling effect
