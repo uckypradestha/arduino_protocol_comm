@@ -35,7 +35,7 @@ Proyek ini menampilkan teks berjalan (scrolling text) pada layar LCD 16×2 mengg
 
 ### Diagram Rangkaian
 
-![Diagram Rangkaian LCD I2C](Tugas06_H1D023015_GilangHappyDwinugroho/Dokumentasi/image.png)
+![Diagram Rangkaian LCD I2C](Dokumentasi/image.png)
 
 
 ## Penjelasan Kode
