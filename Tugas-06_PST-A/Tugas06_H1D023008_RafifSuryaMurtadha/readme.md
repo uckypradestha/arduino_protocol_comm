@@ -50,7 +50,9 @@ Foto Tinkercad:
 
 ## Video Dokumentasi
 
-[📹 Lihat Hasil Simulasi](dokumentasi/HasilSimulasi.mp4)
+[📹 Lihat Hasil Simulasi]
+<video controls src="HasilSimulasi.mp4" title="Title"></video>
+link drive : https://drive.google.com/file/d/1YDhWPy_MHwjP85McK-hojTZUJLD2ikPu/view?usp=sharing 
 
 ---
 
