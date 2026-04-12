@@ -9,6 +9,9 @@ Proyek ini merupakan implementasi animasi teks berjalan dua arah (**Ping-Pong Sc
 ## Tautan Proyek
 * **Simulasi Tinkercad**: https://www.tinkercad.com/things/gk2WOcq2rxR-tugas06sismik-ah1h024013iven-rival-pangestu/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=vxeM7BroA3bbGtZzi4XlQbjQghl4oTCupSqZuJnxxkI 
 
+## SKEMA RANGKAIAN
+
+![Skema rangkaian](Dokumentasi/Tugas06(SISMIK A)_H1H024013_IVEN RIVAL PANGESTU).png)
 ## Komponen & Library
 * **Mikrokontroler**: Arduino (Simulasi Tinkercad) 
 * **LCD**: 16x2 dengan modul I2C 
@@ -39,6 +42,8 @@ Efek "Ping-Pong" dihasilkan oleh fungsi `pingPongScroll()` yang memiliki dua fas
 | **Maju** | Kanan ke Kiri | `offsetMin` ke `offsetMax` (Naik)  |
 | **Mundur** | Kiri ke Kanan | `offsetMax` ke `offsetMin` (Turun)  |
 
+## DEMO 
+https://github.com/user-attachments/assets/1047654a-fc9d-41de-aba1-32aef2760098
 ## KodeFULL
 ```cpp
 #include <Adafruit_LiquidCrystal.h>
