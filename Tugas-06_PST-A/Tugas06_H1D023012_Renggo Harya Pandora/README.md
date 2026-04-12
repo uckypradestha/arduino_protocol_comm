@@ -52,12 +52,10 @@ Baris pertama LCD menampilkan judul **QUOTE**, sedangkan baris kedua menampilkan
 
 ## Hasil
 
-### Video Hasil (MP4)
-- [TUGAS06_H1D023012_RENGGOHARYAPANDORA.mp4](./TUGAS06_H1D023012_RENGGOHARYAPANDORA.mp4)
+### Hasil Animasi (GIF)
+- [TUGAS06_H1D023012_RENGGOHARYAPANDORA.gif](./TUGAS06_H1D023012_RENGGOHARYAPANDORA.gif)
 
-<video controls width="720" src="./TUGAS06_H1D023012_RENGGOHARYAPANDORA.mp4">
-  Browser tidak mendukung pemutaran video.
-</video>
+![Hasil animasi LCD](./TUGAS06_H1D023012_RENGGOHARYAPANDORA.gif)
 
 ### Preview Gambar
 ![Preview hasil](./TUGAS06_H1D023012_RENGGOHARYAPANDORA.png)
