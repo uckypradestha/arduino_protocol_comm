@@ -1,3 +1,4 @@
+<img width="1494" height="702" alt="Tugas06(SISMIK A)_H1H024013_IVEN RIVAL PANGESTU)" src="https://github.com/user-attachments/assets/44082bec-e339-48b1-9aad-28ccd8dc1254" />
 # Scrolling Text LCD I2C (Arduino)
 Proyek ini merupakan implementasi animasi teks berjalan dua arah (**Ping-Pong Scrolling**) pada LCD 16x2 menggunakan antarmuka I2C di lingkungan Arduino.Program ini menampilkan judul statis di baris pertama dan teks kutipan dinamis di baris kedua.
 
@@ -10,8 +11,8 @@ Proyek ini merupakan implementasi animasi teks berjalan dua arah (**Ping-Pong Sc
 * **Simulasi Tinkercad**: https://www.tinkercad.com/things/gk2WOcq2rxR-tugas06sismik-ah1h024013iven-rival-pangestu/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=vxeM7BroA3bbGtZzi4XlQbjQghl4oTCupSqZuJnxxkI 
 
 ## SKEMA RANGKAIAN
+<img width="1494" height="702" alt="Tugas06(SISMIK A)_H1H024013_IVEN RIVAL PANGESTU)" src="https://github.com/user-attachments/assets/840a9cbe-5972-4c3d-a531-e0fe121d70f8" />
 
-![Skema rangkaian](Dokumentasi/Tugas06(SISMIK A)_H1H024013_IVEN RIVAL PANGESTU).png)
 ## Komponen & Library
 * **Mikrokontroler**: Arduino (Simulasi Tinkercad) 
 * **LCD**: 16x2 dengan modul I2C 
