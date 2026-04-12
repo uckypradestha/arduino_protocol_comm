@@ -46,5 +46,8 @@ Output dari program ini adalah:
 ### Demo
 [Klik untuk melihat video demo](Dokumentasi/0412.gif)
 
+## Link Tinkercad
+<iframe width="725" height="453" src="https://www.tinkercad.com/embed/cMkk1XvuU49?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
 
 
