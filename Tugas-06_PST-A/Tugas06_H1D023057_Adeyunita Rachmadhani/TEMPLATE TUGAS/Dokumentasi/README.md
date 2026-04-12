@@ -12,7 +12,7 @@ Berikut merupakan gambar rangkaian simulasi LCD 16x2 I2C yang digunakan pada pro
 
 Berikut merupakan video demo hasil simulasi program saat dijalankan.
 
-[Klik untuk melihat video demo](VidHasil.mp4)
+[Klik untuk melihat video demo](0412.mp4)
 
 ## Deskripsi Hasil Simulasi
 

@@ -44,7 +44,7 @@ Output dari program ini adalah:
 - teks quote berjalan pada baris kedua secara terus-menerus
 
 ### Demo
-[Klik untuk melihat video demo](Dokumentasi/VidHasil.mp4)
+[Klik untuk melihat video demo](Dokumentasi/0412.mp4)
 
 
 
