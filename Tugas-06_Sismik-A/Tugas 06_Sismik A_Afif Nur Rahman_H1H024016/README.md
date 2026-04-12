@@ -34,6 +34,7 @@ Proyek ini dibuat untuk menampilkan teks berjalan (scrolling text) pada layar LC
 ![Skema Rangkaian LCD I2C](dokumentasi/skema.png)
 
 ## PENJELASAN KODE
+
 ```
 #include <Adafruit_LiquidCrystal.h> 
 // Memanggil library untuk mengontrol LCD (via I2C atau pin biasa)
