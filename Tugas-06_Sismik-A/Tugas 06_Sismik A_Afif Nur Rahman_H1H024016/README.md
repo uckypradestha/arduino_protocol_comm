@@ -97,7 +97,7 @@ void loop()
 
 ## DEMO
 
-<video controls src="2026-04-12 18-57-21.mp4" title="Title"></video>
+https://github.com/user-attachments/assets/0df24720-048c-4c10-b1d1-00100161ab3e
 
 ## LINK SIMULASI (TINKERCAD)
 
