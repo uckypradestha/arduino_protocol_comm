@@ -47,7 +47,7 @@ Output dari program ini adalah:
 [Klik untuk melihat video demo](Dokumentasi/0412.gif)
 
 ## Link Tinkercad
-<iframe width="725" height="453" src="https://www.tinkercad.com/embed/cMkk1XvuU49?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+https://www.tinkercad.com/things/cMkk1XvuU49-lcd-quotes
 
 
 
