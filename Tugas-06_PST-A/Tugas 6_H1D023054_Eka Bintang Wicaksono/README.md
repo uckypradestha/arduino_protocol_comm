@@ -35,6 +35,10 @@ Project ini merupakan implementasi komunikasi I2C (Inter-Integrated Circuit) den
 | VCC (Power) | 5V |
 | SDA (Serial Data) | SDA Arduino |
 | SCL (Serial Clock) | SCL Arduino |
+
+### Diagram Rangkaian
+![Rangkaian TUgas 6](https://github.com/user-attachments/assets/56522714-c9cc-4a64-8a67-bd919f35097e)
+
 ---
 
 ## Penjelasan Kode
@@ -108,3 +112,11 @@ for (int i = 15; i >= -x; i--) {
 - **`if (i >= 0)`:** Saat teks masih dalam rentang LCD, tampilkan seluruh teks
 - **`else`:** Saat teks mulai keluar, hanya tampilkan bagian yang masih terlihat dengan `substring()`
 - **`delay(200)`:** Kecepatan gerak (semakin kecil = semakin cepat)
+
+---
+## Dokumentasi
+https://github.com/user-attachments/assets/bdaf2c66-23d0-4e6a-8c40-3d7b685f8888
+
+---
+## Library yang Digunakan
+`LiquidCrystal_I2C`
