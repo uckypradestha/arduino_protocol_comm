@@ -22,8 +22,7 @@ Program memanfaatkan manipulasi **substring** untuk menampilkan sebagian teks se
 
 Berikut adalah tampilan rangkaian yang digunakan pada simulasi:
 
-**(Tambahkan gambar schematic di sini)**
-
+<img width="1014" height="795" alt="image" src="https://github.com/user-attachments/assets/609aeb47-ed95-46cb-b863-f6c866e613c7" />
 
 ---
 
@@ -31,8 +30,7 @@ Berikut adalah tampilan rangkaian yang digunakan pada simulasi:
 
 Video berikut menunjukkan hasil simulasi program berupa efek teks berjalan pada LCD.
 
-**(Tambahkan video di sini)**
-
+https://github.com/user-attachments/assets/7a1cc739-29da-4c65-872f-35b0fe4b9def
 
 ---
 
