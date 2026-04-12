@@ -32,11 +32,11 @@ String teks = "Kesuksesan dimulai dari langkah kecil";
 String teksPanjang = "                " + teks + "                ";
 ```
 
-| Variabel      | Fungsi                                                                       |
-| ------------- | ---------------------------------------------------------------------------- |
-| `judul`       | Teks statis yang ditampilkan di baris pertama (tengah)                       |
-| `teks`        | Isi kutipan yang akan di-scroll                                              |
-| `teksPanjang` | Teks dengan padding 16 spasi di kiri & kanan agar efek scroll terlihat mulus |
+Variabel       Fungsi                                                                       
+
+`judul`        Teks statis yang ditampilkan di baris pertama (tengah)                       
+`teks`         Isi kutipan yang akan di-scroll                                              
+`teksPanjang`  Teks dengan padding 16 spasi di kiri & kanan agar efek scroll terlihat mulus 
 
 ---
 
@@ -87,10 +87,5 @@ const int delayScroll = 120;
 
 Mengatur kecepatan scroll dalam milidetik. Nilai lebih kecil = scroll lebih cepat.
 
-| Nilai | Efek             |
-| ----- | ---------------- |
-| `80`  | Cepat            |
-| `120` | Normal (default) |
-| `200` | Lambat           |
 
 ---
