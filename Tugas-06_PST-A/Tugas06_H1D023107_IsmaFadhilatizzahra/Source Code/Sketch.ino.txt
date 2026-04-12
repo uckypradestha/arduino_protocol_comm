@@ -1,0 +1,56 @@
+// Memasukkan library khusus untuk mengontrol LCD melalui protokol I2C di Tinkercad
+#include <Adafruit_LiquidCrystal.h>
+
+// Menyiapkan objek LCD. Angka 0 adalah alamat default I2C di simulasi Tinkercad
+Adafruit_LiquidCrystal lcd(0);
+
+// Menyimpan kalimat quote ke dalam variabel bernama 'quote' agar mudah dipanggil
+String quote = "Manusia boleh berencana, tetapi saldo yang menentukan";
+
+void setup() {
+  // Memberitahu Arduino bahwa LCD yang dipakai ukurannya 16 kolom dan 2 baris
+  lcd.begin(16, 2);
+  
+  // Mengaktifkan lampu latar agar tulisan di LCD terlihat 
+  lcd.setBacklight(1);
+}
+
+void loop() {
+  // Mengatur posisi kursor ke kolom 5, baris 0 (baris atas) agar kata "QUOTE:" ada di tengah
+  lcd.setCursor(5, 0);
+  // Menampilkan tulisan statis "QUOTE:" 
+  lcd.print("QUOTE:");
+
+  // Perulangan untuk menggerakkan teks. 'pos' mulai dari 16 (kanan luar) 
+  // dan berkurang sampai seluruh teks habis tergeser ke kiri luar
+  for (int pos = 16; pos >= -(int)quote.length(); pos--) {
+    
+    // Menyiapkan wadah kosong (String) untuk menyusun apa yang akan tampil di layar nanti
+    String displayStr = "";
+    
+    // Jika posisi teks masih di angka positif (teks baru mau masuk dari kanan)
+    if (pos > 0) {
+      // Tambahkan spasi kosong di depan teks sebanyak nilai 'pos' agar teks terlihat bergeser
+      for (int s = 0; s < pos; s++) displayStr += " ";
+      // Gabungkan spasi tadi dengan isi quote
+      displayStr += quote;
+    } 
+    // Jika posisi sudah nol atau negatif (teks sudah mulai keluar layar ke arah kiri)
+    else {
+      // Potong bagian depan teks sesuai jumlah pergeseran (menggunakan fungsi substring)
+      displayStr = quote.substring(-pos);
+    }
+    
+    // Selama panjang teks di wadah kurang dari 16 karakter, menambahkan spasi di belakangnya
+    // Tujuannya agar karakter lama terhapus bersih dan tidak menyangkut di layar
+    while (displayStr.length() < 16) displayStr += " ";
+    
+    // Arahkan kursor ke kolom 0, baris 1 (baris bawah)
+    lcd.setCursor(0, 1);
+    // Ambil hanya 16 karakter pertama dari wadah, lalu tampilkan ke LCD
+    lcd.print(displayStr.substring(0, 16));
+    
+    // Beri jeda 0,2 detik sebelum posisi teks bergeser lagi (mengatur kecepatan scroll)
+    delay(200); 
+  }
+}
