@@ -2,8 +2,8 @@
 
 ## Identitas
 
-Nama : Anas Sholihin<br>
-NIM : H1D023103<br>
+Nama : Ferdi Waskito<br>
+NIM : H1D024100<br>
 Mata Kuliah : Pemrograman Sistem Tertanam
 
 ## Deskripsi Proyek
