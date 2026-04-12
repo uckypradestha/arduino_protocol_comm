@@ -6,7 +6,7 @@ Folder ini berisikan dokumentasi penerapan code **scrolling text pada LCD 16x2 I
 
 Berikut merupakan gambar rangkaian simulasi LCD 16x2 I2C yang digunakan pada program.
 
-![Rangkaian LCD I2C](rangkaian06.png)
+![Rangkaian LCD I2C](Rangkaian06.png)
 
 ## Video Demo
 
