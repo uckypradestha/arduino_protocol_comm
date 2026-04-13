@@ -21,13 +21,13 @@ Hidup jadi terasa mudah jika pernah merasakan susah
 - Baris kedua teks berjalan dari kanan ke kiri
 
 ## Struktur Folder
-Tugas06_H1D024028_DendroIqbalPratama/
+
 - quote.ino
 - Dokumentasi/video.mp4
 - README.md
 
 ## Video
-Lihat di folder Dokumentasi
+[Lihat di folder Dokumentasi](https://github.com/dendropratama/Tuga06_H1024028_Dendro-Iqbal-Pratama/blob/dendropratama-patch-1/Tuga06_H1024028_Dendro-Iqbal-Pratama/Dokumentasi/20260413-1523-149619082_Y93xw43g.mp4)
 
 ## Kesimpulan
 Program berhasil menampilkan scrolling text di LCD
