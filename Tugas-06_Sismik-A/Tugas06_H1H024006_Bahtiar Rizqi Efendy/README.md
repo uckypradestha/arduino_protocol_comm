@@ -1,6 +1,7 @@
 # 📟 LCD Scrolling Quote — Arduino I2C
 
 ✨ Menampilkan **judul statis di tengah** dan **teks berjalan (scrolling)** menggunakan LCD 16x2 berbasis I2C dengan Arduino.
+silahkan lihat di simulasi tinkercad: https://www.tinkercad.com/things/esHqRcIqYrb-tugas06h1h024006bahtiar-rizqi-efendy
 
 ---
 
