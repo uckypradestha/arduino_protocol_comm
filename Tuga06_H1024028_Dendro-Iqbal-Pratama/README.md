@@ -1,35 +1,33 @@
-<h1>Scrolling Text LCD I2C</h1>
+# Tugas 06 - Scrolling Text LCD I2C
 
-<h2>Identitas</h2>
+Nama: Dendro Iqbal Pratama  
+NIM: H1D024028  
 
-Nama : Dendro Iqbal Pratama <br>
-NIM : H1H024028 <br>
-Mata Kuliah : Sistem Mikrokontroler
+## Deskripsi
+Program ini menampilkan teks berjalan pada LCD 16x2 menggunakan I2C.  
+Baris pertama menampilkan "QUOTE", baris kedua menampilkan teks berjalan.
 
-<h2>Deskripsi Proyek</h2>
+Teks:
+Hidup jadi terasa mudah jika pernah merasakan susah
 
-Proyek ini bertujuan untuk membuat tampilan teks berjalan (scrolling text) pada LCD 16x2 menggunakan komunikasi I2C. Teks ditampilkan pada baris kedua dan bergerak dari kanan ke kiri, sedangkan baris pertama menampilkan teks statis "QUOTE".
-
-<h2>Fitur Utama</h2>
-
-- Menampilkan teks statis "QUOTE" di baris pertama
-- Menampilkan teks berjalan di baris kedua
-- Kecepatan scrolling dapat diatur
-- Teks dapat diganti sesuai kebutuhan
-
-<h2>Perangkat yang Digunakan</h2>
-
+## Alat dan Bahan
 - Arduino Uno
 - LCD 16x2 I2C
 - Kabel jumper
 
-<h2>Rangkaian</h2>
+## Cara Kerja
+- LCD dihubungkan via I2C (SDA & SCL)
+- Baris pertama teks statis
+- Baris kedua teks berjalan dari kanan ke kiri
 
-- VCC → 5V Arduino  
-- GND → GND Arduino  
-- SDA → A4 Arduino  
-- SCL → A5 Arduino  
+## Struktur Folder
+Tugas06_H1D024028_DendroIqbalPratama/
+- quote.ino
+- Dokumentasi/video.mp4
+- README.md
 
-<h2>Source Code</h2>
+## Video
+Lihat di folder Dokumentasi
 
-File program terdapat pada:
+## Kesimpulan
+Program berhasil menampilkan scrolling text di LCD
