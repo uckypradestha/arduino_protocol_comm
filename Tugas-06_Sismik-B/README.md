@@ -1,24 +1,57 @@
-<h1>Scrolling Text Dengan I2C</h1>
+# 📟 Scrolling Text Dengan I2C
 
-Spesifikasi Sistem:
-- Terdiri dari 2 Kalimat.
-- Kalimat 1 (baris [0]) bertulisan QUOTE, sifatnya statis
-- Kalimat 2 (baris [1]) bertulisan Quote nya yang sifatnya dinamis
-- Tulisan QUOTE tepat di tengah tampilan LCD
-- Tulisan Quote nya pada baris [1] langsung muncul dari sisi kanan (Cursor 15, 1)
+## 📌 Deskripsi
+Program ini menggunakan **LCD 16x2 berbasis I2C** pada Arduino untuk menampilkan teks dalam dua baris.
 
-<h2></h2>
+- Baris pertama menampilkan teks statis
+- Baris kedua menampilkan teks berjalan (scrolling)
 
-<br>
-<div align="center">
-  <a href="https://github.com/uckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
-  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.linkedin.com/uckypradestha/"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
-  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://twitter.com/uckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
-  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.youtube.com/@ckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
-  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.tiktok.com/@pradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
-  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-</div>
+---
+
+## ⚙️ Spesifikasi Sistem
+
+- Terdiri dari **2 Kalimat**
+
+### 🔹 Baris [0]
+- Bertuliskan: `QUOTE`
+- Bersifat **statis**
+- Ditampilkan **tepat di tengah LCD**
+
+### 🔹 Baris [1]
+- Berisi teks quote
+- Bersifat **dinamis (scrolling)**
+- Muncul dari **sisi kanan (cursor 15,1)**
+- Bergerak dari kanan ke kiri
+
+---
+
+## 🧰 Komponen
+
+- Arduino Uno
+- LCD 16x2 I2C
+- Kabel jumper
+
+---
+
+## 🔌 Koneksi
+
+| LCD I2C | Arduino Uno |
+|--------|------------|
+| GND    | GND        |
+| VCC    | 5V         |
+| SDA    | A4         |
+| SCL    | A5         |
+
+---
+
+## 💻 Cara Kerja
+
+1. LCD diinisialisasi menggunakan I2C  
+2. Tulisan **"QUOTE"** ditampilkan di tengah  
+3. Teks panjang ditambahkan spasi di awal & akhir  
+4. Program mengambil substring 16 karakter  
+5. Teks bergeser ke kiri (scrolling)
+
+---
+
+## ▶️ Contoh Output
