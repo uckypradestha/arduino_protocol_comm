@@ -1,19 +1,19 @@
-# Project: LCD I2C Running Text - Quote Display
 
-Project ini menggunakan Arduino Uno dan LCD 16x2 dengan modul I2C untuk menampilkan teks berjalan (*running text*) secara horizontal pada baris kedua, sementara baris pertama menampilkan judul statis.
 
-## 📝 Deskripsi Program
+Project ini menggunakan Arduino Uno dan LCD 16x2 dengan modul I2C untuk menampilkan teks berjalan secara horizontal pada baris kedua, sementara baris pertama menampilkan judul statis.
+
+Deskripsi Program
 Program ini menampilkan sebuah kutipan bijak: *"Di balik takdir yang pahit, ada hikmah yang manis"*. 
 - Baris 1: Menampilkan teks statis "QUOTE" di posisi tengah.
 - Baris 2: Menampilkan teks berjalan dari kanan ke kiri menggunakan fungsi `substring()` untuk menciptakan efek animasi yang halus.
 
-## 🛠️ Komponen yang Digunakan
+Komponen yang Digunakan
 1. Arduino Uno (atau jenis Arduino lainnya)
 2. LCD 16x2
 3. Modul I2C (PCF8574) - Untuk menghemat pin Arduino.
 4. Kabel Jumper
 
-## 🔌 Rangkaian (Wiring)
+ Rangkaian (Wiring)
 | LCD I2C Pin | Arduino Pin |
 |-------------|-------------|
 | GND         | GND         |
@@ -21,7 +21,7 @@ Program ini menampilkan sebuah kutipan bijak: *"Di balik takdir yang pahit, ada 
 | SDA         | A4 (SDA)    |
 | SCL         | A5 (SCL)    |
 
-## 💻 Kode Program
+Kode Program
 Program ini membutuhkan library `LiquidCrystal_I2C`. Pastikan Anda sudah menginstalnya melalui Library Manager di Arduino IDE.
 
 ```cpp
@@ -32,22 +32,19 @@ Program ini membutuhkan library `LiquidCrystal_I2C`. Pastikan Anda sudah mengins
 LiquidCrystal_I2C lcd(0x27, 16, 2); 
 
 void setup() {
-  lcd.init();      // Inisialisasi LCD
-  lcd.backlight(); // Menyalakan lampu latar LCD
+  lcd.init(); 
+  lcd.backlight();
 }
 
 void loop() {
   String quote = " Di balik takdir yang pahit, ada hikmah yang manis";
   int len = quote.length();
   
-  // Perulangan untuk posisi teks berjalan
   for (int pos = 15; pos >= -len; pos--) {
     
-    // Baris 1: Judul Statis
     lcd.setCursor(5, 0);
     lcd.print("QUOTE");
     
-    // Logika menampilkan teks berjalan pada baris 2
     if (pos >= 0) {
       lcd.setCursor(pos, 1);
       lcd.print(quote.substring(0, 16 - pos));
@@ -58,6 +55,6 @@ void loop() {
     
     delay(300); // Kecepatan pergerakan teks (ms)
     lcd.setCursor(0, 1);
-    lcd.print("                "); // Membersihkan baris 2 sebelum posisi berikutnya
+    lcd.print("                ");
   }
 }
