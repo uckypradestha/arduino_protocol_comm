@@ -1,17 +1,13 @@
-# Tugas 6 - Sistem Mikroprosesor (Sismik) 🚀
+# Tugas 6 - Sistem Mikroprosesor (Sismik) 
 
-Repositori ini berisi implementasi kode Arduino untuk menampilkan teks berjalan (*scrolling text*) pada LCD 16x2 menggunakan library **Adafruit LiquidCrystal**. Program ini menggunakan algoritma kustom `pingPongScroll` untuk menciptakan efek teks yang bergerak dari kanan ke kiri dan kembali lagi secara otomatis.
-
----
-
-## 👤 Informasi Mahasiswa
+## 👤 mahasiswii
 - **Nama:** Lula
 - **NIM:** H1H024064
 - **Mata Kuliah:** Sistem Mikroprosesor (Sismik)
 
 ---
 
-## 📝 Deskripsi Proyek
+## 📝 Deskripsi
 Proyek ini bertujuan untuk mendemonstrasikan kontrol output visual pada modul LCD. Fitur utama dari kode ini meliputi:
 
 * **Efek Ping-Pong:** Teks tidak hanya berjalan searah, tetapi "memantul" kembali setelah mencapai ujung layar.
