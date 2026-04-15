@@ -1,3 +1,10 @@
+Nama: Wendy Virtus  
+NIM: H1H024048  
+Kelas: B  
+Mata Kuliah: Sistem Mikrokontroler  
+  
+---
+
 ## Laporan Program Arduino
 
 Program Arduino untuk menampilkan teks statis di tengah baris atas dan teks berjalan (ping-pong scroll) di baris bawah LCD 16x2.
