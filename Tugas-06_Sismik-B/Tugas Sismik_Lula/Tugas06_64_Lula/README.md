@@ -1,36 +1,53 @@
-##Tugas 6 - Sistem Mikroprosesor (Sismik)##
-Nama: Lula
+# Tugas 6 - Sistem Mikroprosesor (Sismik) 🚀
 
-NIM: H1H024064
+Repositori ini berisi implementasi kode Arduino untuk menampilkan teks berjalan (*scrolling text*) pada LCD 16x2 menggunakan library **Adafruit LiquidCrystal**. Program ini menggunakan algoritma kustom `pingPongScroll` untuk menciptakan efek teks yang bergerak dari kanan ke kiri dan kembali lagi secara otomatis.
 
-Repositori ini berisi implementasi kode Arduino untuk menampilkan teks berjalan (scrolling text) pada LCD 16x2 menggunakan library Adafruit LiquidCrystal. Program ini menggunakan metode kustom pingPongScroll untuk menggerakkan teks dari kanan ke kiri dan kembali lagi.
+---
 
-📝 Deskripsi Proyek
-Proyek ini bertujuan untuk mendemonstrasikan kontrol output visual pada modul LCD. Fitur utama dari kode ini adalah:
+## 👤 Informasi Mahasiswa
+- **Nama:** Lula
+- **NIM:** H1H024064
+- **Mata Kuliah:** Sistem Mikroprosesor (Sismik)
 
-Efek Ping-Pong: Teks tidak hanya lewat satu arah, tapi memantul kembali setelah mencapai ujung.
+---
 
-Modular Function: Menggunakan fungsi renderFrame dan hapusBaris1 agar kode lebih terstruktur dan mudah dimodifikasi.
+## 📝 Deskripsi Proyek
+Proyek ini bertujuan untuk mendemonstrasikan kontrol output visual pada modul LCD. Fitur utama dari kode ini meliputi:
 
-Custom Timing: Pengaturan delay yang halus untuk memastikan teks dapat dibaca dengan nyaman.
+* **Efek Ping-Pong:** Teks tidak hanya berjalan searah, tetapi "memantul" kembali setelah mencapai ujung layar.
+* **Modular Function:** Menggunakan fungsi `renderFrame` dan `hapusBaris1` agar kode lebih terstruktur, bersih, dan mudah dimodifikasi.
+* **Custom Timing:** Pengaturan delay yang dioptimalkan untuk memastikan teks tetap nyaman dibaca selama pergerakan.
 
-🛠️ Komponen & Library
-Hardware: Arduino (Uno/Nano/Mega) & LCD 16x2 (I2C Module).
+---
 
-Library: Adafruit LiquidCrystal.
+## 🛠️ Komponen & Library
+### Hardware
+* Arduino (Uno / Nano / Mega)
+* Modul LCD 16x2 dengan I2C Adapter
 
-🚀 Konfigurasi Kode
-Kamu bisa mengatur variabel berikut di dalam file .ino untuk mengubah tampilan:
+### Software & Library
+* **Arduino IDE**
+* **Library:** [Adafruit LiquidCrystal](https://github.com/adafruit/Adafruit_LiquidCrystal)
 
-Variabel	Fungsi	Nilai Default
-quoteText	Teks yang akan ditampilkan	"Lulassssss, cintaa sismik"
-SCROLL_DELAY	Kecepatan pergerakan teks (ms)	280
-PAUSE_END	Jeda saat teks sampai di ujung (ms)	1200
-💻 Cara Penggunaan
-Clone repositori ini atau salin kode ke Arduino IDE.
+---
 
-Pastikan library Adafruit LiquidCrystal sudah terinstal melalui Library Manager.
+## ⚙️ Konfigurasi Kode
+Anda dapat menyesuaikan variabel berikut di dalam file `.ino` untuk mengubah perilaku tampilan:
 
-Hubungkan LCD ke pin I2C Arduino (biasanya A4 untuk SDA dan A5 untuk SCL).
+| Variabel | Fungsi | Nilai Default |
+| :--- | :--- | :--- |
+| `quoteText` | Teks yang akan ditampilkan di baris ke-2 | `"Lulassssss, cintaa sismik"` |
+| `SCROLL_DELAY` | Kecepatan pergerakan teks (milidetik) | `280` |
+| `PAUSE_END` | Jeda saat teks mencapai batas akhir (milidetik) | `1200` |
 
-Upload kode dan buka layar LCD kamu.
+---
+
+## 💻 Cara Penggunaan
+1.  **Persiapan:** Pastikan library **Adafruit LiquidCrystal** sudah terinstal melalui *Library Manager* di Arduino IDE.
+2.  **Koneksi Hardware:** Hubungkan pin I2C LCD ke Arduino:
+    * **GND** -> GND
+    * **VCC** -> 5V
+    * **SDA** -> A4 (Arduino Uno)
+    * **SCL** -> A5 (Arduino Uno)
+3.  **Upload:** Buka file `.ino`, pilih board yang sesuai, dan klik **Upload**.
+4.  **Selesai:** Teks akan muncul di layar LCD dengan efek *ping-pong*.
