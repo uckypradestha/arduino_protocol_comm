@@ -66,4 +66,4 @@ delay(300) : Kecepatan scroll quote pada baris 2
 
 ## Link Simulasi Tinkercad
 
-Link Tinkercad : https://www.tinkercad.com/things/cxalQzmyOzW-tugas6sistem-mikrokontroler?sharecode=undefined
+Link Tinkercad :(https://www.tinkercad.com/things/cxalQzmyOzW-tugas6sistem-mikrokontroler?sharecode=extre74jt_Pch9FUNXns5RxaPaozPA9leLjWqs2QqZ4)
