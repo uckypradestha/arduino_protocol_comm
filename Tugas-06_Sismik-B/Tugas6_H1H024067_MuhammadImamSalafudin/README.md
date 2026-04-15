@@ -1,4 +1,9 @@
-
+## Laporan tugas 
+```
+Muhammad Imam Salafudin
+H1H024067
+B
+```
 ## Library & Inisialisasi LCD
 ```ino
 #include 
