@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/lulakdelavia/Lula_Tugas6_Sismik/Tugas-06_Sismik-B/Tugas Sismik_Lula/Tugas06_64_Lula",
+      "program": "/Users/lulakdelavia/Lula_Tugas6_Sismik/Tugas-06_Sismik-B/Tugas Sismik_Lula/Tugas06_64_Lula/build/Debug/outDebug"
+    }
+  ]
+}
