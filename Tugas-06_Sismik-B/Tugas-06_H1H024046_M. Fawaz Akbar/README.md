@@ -67,6 +67,7 @@ delay(200) : Kecepatan scroll teks yang akan di tampilkan
 
 Vidio dokumentasi : bisa cek di folder `Dokumentasi`
 Source Code : bisa di cek di folder `Source Code`
+Link Tinkercad : https://www.tinkercad.com/things/8auO38z96HR-running-text?sharecode=glyxBUi8tQhr4spAzNBLIt3pXwF-B3dA8s9opUmI3oo
 
 
 
