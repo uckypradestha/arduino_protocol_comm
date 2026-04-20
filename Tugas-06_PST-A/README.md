@@ -7,6 +7,27 @@ Spesifikasi Sistem:
 - Tulisan QUOTE tepat di tengah tampilan LCD
 - Tulisan Quote nya pada baris [1] langsung muncul dari sisi kanan (Cursor 15, 1)
 
+<h2>Hasil</h2>
+
+Nama: Wildan Munawwar Habib   
+NIM: H1D023045
+
+<h2>Link Tinkercad</h2>
+
+https://www.tinkercad.com/things/jdKHB7xz91u-lcd-i2c?sharecode=OZQq0Rm2z8jw5KFl4Tn6peyw1udTC7ob3aL6MYjMwCA
+
+<h2>Gambar Hasil</h2>
+
+![Hasil](Dokumentasi/Hasil.png)
+
+<h2>Gif Running Text</h2>
+
+![Running Text](Dokumentasi/HasilGif.gif)
+
+<h2>Schematic / Rangkaian</h2>
+
+![Schematic](Dokumentasi/SchematicView.jpg)
+
 <h2></h2>
 
 <br>
